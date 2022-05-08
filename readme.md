@@ -43,7 +43,7 @@ In order as listed, joining the table produces the final dataset. Variables /fea
 
 | Table             | Description                                                                   |
 |-------------------|-------------------------------------------------------------------------------|
-| bad_prod_ids      | Products found to have flawed or no                                           |
+| bad_prod_ids      | IDS of products found to have flawed or no data                               |
 | lp_store          | scraper inputs - contains urls of given (sub)categories                       |
 | same_products     | IDs of products sharing the same name (could be withing the same e-shop)      |
 | similiar_products | IDs of products having almost the same name (could be within the same s-shop) |
