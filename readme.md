@@ -2,7 +2,7 @@
 
 This repository contains a dataset of more than 10 million product records from 5 of the largest e-commerce companies in Czech republic, collected during Q3 and Q4 2021. <br>
 - In particular, the dataset focuses on products from consumer electronics industry (phones, laptops, PCs, freezers, smart gadgets etc.).
-- The data as such has been scraped via custom python scraper - build using [pyppeteer](https://github.com/pyppeteer/pyppeteer) (may be shared in future). 
+- The data as such has been scraped via custom python scraper - built using [pyppeteer](https://github.com/pyppeteer/pyppeteer) (may be shared in future). 
 - The frequency of the data is daily, meaning in ideal case, for any distinct product, there would be more than 100 records. Such is not the case, however, for many products there is more than 50 records. On average, there is 30 records per product, of which there are more than 300 000.
 
 ## Main Table structure
@@ -45,7 +45,7 @@ In order as listed, joining the table produces the final dataset. Variables /fea
 |-------------------|-------------------------------------------------------------------------------|
 | bad_prod_ids      | IDS of products found to have flawed or no data                               |
 | lp_store          | scraper inputs - contains urls of given (sub)categories                       |
-| same_products     | IDs of products sharing the same name (could be withing the same e-shop)      |
+| same_products     | IDs of products sharing the same name (could be within the same e-shop)       |
 | similiar_products | IDs of products having almost the same name (could be within the same s-shop) |
 
 
